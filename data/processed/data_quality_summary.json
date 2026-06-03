@@ -1,0 +1,247 @@
+{
+  "datasets_found": 16,
+  "datasets": [
+    {
+      "dataset": "01_fund_master",
+      "shape": [
+        40,
+        15
+      ],
+      "missing_cells": 0,
+      "duplicate_rows": 0,
+      "duplicate_columns": null,
+      "unnamed_columns": null
+    },
+    {
+      "dataset": "02_nav_history",
+      "shape": [
+        46000,
+        3
+      ],
+      "missing_cells": 0,
+      "duplicate_rows": 0,
+      "duplicate_columns": null,
+      "unnamed_columns": null
+    },
+    {
+      "dataset": "03_aum_by_fund_house",
+      "shape": [
+        90,
+        5
+      ],
+      "missing_cells": 0,
+      "duplicate_rows": 0,
+      "duplicate_columns": null,
+      "unnamed_columns": null
+    },
+    {
+      "dataset": "04_monthly_sip_inflows",
+      "shape": [
+        48,
+        6
+      ],
+      "missing_cells": 12,
+      "duplicate_rows": 0,
+      "duplicate_columns": null,
+      "unnamed_columns": null
+    },
+    {
+      "dataset": "05_category_inflows",
+      "shape": [
+        144,
+        3
+      ],
+      "missing_cells": 0,
+      "duplicate_rows": 0,
+      "duplicate_columns": null,
+      "unnamed_columns": null
+    },
+    {
+      "dataset": "06_industry_folio_count",
+      "shape": [
+        21,
+        6
+      ],
+      "missing_cells": 0,
+      "duplicate_rows": 0,
+      "duplicate_columns": null,
+      "unnamed_columns": null
+    },
+    {
+      "dataset": "07_scheme_performance",
+      "shape": [
+        40,
+        19
+      ],
+      "missing_cells": 0,
+      "duplicate_rows": 0,
+      "duplicate_columns": null,
+      "unnamed_columns": null
+    },
+    {
+      "dataset": "08_investor_transactions",
+      "shape": [
+        32778,
+        13
+      ],
+      "missing_cells": 0,
+      "duplicate_rows": 0,
+      "duplicate_columns": null,
+      "unnamed_columns": null
+    },
+    {
+      "dataset": "09_portfolio_holdings",
+      "shape": [
+        322,
+        8
+      ],
+      "missing_cells": 0,
+      "duplicate_rows": 0,
+      "duplicate_columns": null,
+      "unnamed_columns": null
+    },
+    {
+      "dataset": "10_benchmark_indices",
+      "shape": [
+        8050,
+        3
+      ],
+      "missing_cells": 0,
+      "duplicate_rows": 0,
+      "duplicate_columns": null,
+      "unnamed_columns": null
+    },
+    {
+      "dataset": "nav_118632",
+      "shape": [
+        3299,
+        4
+      ],
+      "missing_cells": 0,
+      "duplicate_rows": 0,
+      "duplicate_columns": null,
+      "unnamed_columns": null
+    },
+    {
+      "dataset": "nav_119092",
+      "shape": [
+        3566,
+        4
+      ],
+      "missing_cells": 0,
+      "duplicate_rows": 0,
+      "duplicate_columns": null,
+      "unnamed_columns": null
+    },
+    {
+      "dataset": "nav_119551",
+      "shape": [
+        3237,
+        4
+      ],
+      "missing_cells": 0,
+      "duplicate_rows": 0,
+      "duplicate_columns": null,
+      "unnamed_columns": null
+    },
+    {
+      "dataset": "nav_120503",
+      "shape": [
+        3308,
+        4
+      ],
+      "missing_cells": 0,
+      "duplicate_rows": 0,
+      "duplicate_columns": null,
+      "unnamed_columns": null
+    },
+    {
+      "dataset": "nav_120841",
+      "shape": [
+        3302,
+        4
+      ],
+      "missing_cells": 0,
+      "duplicate_rows": 0,
+      "duplicate_columns": null,
+      "unnamed_columns": null
+    },
+    {
+      "dataset": "nav_125497",
+      "shape": [
+        3092,
+        4
+      ],
+      "missing_cells": 0,
+      "duplicate_rows": 0,
+      "duplicate_columns": null,
+      "unnamed_columns": null
+    }
+  ],
+  "anomaly_notes": [
+    "04_monthly_sip_inflows: 12 missing cell(s)"
+  ],
+  "fund_master": {
+    "fund_house": {
+      "column": "fund_house",
+      "unique_values": [
+        "Aditya Birla Sun Life MF",
+        "Axis Mutual Fund",
+        "DSP Mutual Fund",
+        "HDFC Mutual Fund",
+        "ICICI Prudential MF",
+        "Kotak Mahindra MF",
+        "Mirae Asset MF",
+        "Nippon India MF",
+        "SBI Mutual Fund",
+        "UTI Mutual Fund"
+      ]
+    },
+    "category": {
+      "column": "category",
+      "unique_values": [
+        "Debt",
+        "Equity"
+      ]
+    },
+    "sub_category": {
+      "column": "sub_category",
+      "unique_values": [
+        "ELSS",
+        "Flexi Cap",
+        "Gilt",
+        "Index",
+        "Index/ETF",
+        "Large & Mid Cap",
+        "Large Cap",
+        "Liquid",
+        "Mid Cap",
+        "Short Duration",
+        "Small Cap",
+        "Value"
+      ]
+    },
+    "risk_grade": {
+      "column": "risk_category",
+      "unique_values": [
+        "High",
+        "Low",
+        "Moderate",
+        "Moderately High",
+        "Very High"
+      ]
+    },
+    "possible_code_columns": [
+      "amfi_code",
+      "sebi_category_code"
+    ]
+  },
+  "amfi_validation": {
+    "status": "complete",
+    "fund_code_column": "amfi_code",
+    "nav_code_column": "amfi_code",
+    "fund_code_count": 40,
+    "nav_code_count": 40,
+    "missing_codes": []
+  }
+}
