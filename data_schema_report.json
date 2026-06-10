@@ -1,0 +1,52 @@
+{
+  "cleaned_01_fund_master.csv": {
+    "found": true,
+    "missing_columns": [],
+    "extra_columns": []
+  },
+  "cleaned_02_nav_history.csv": {
+    "found": true,
+    "missing_columns": [],
+    "extra_columns": []
+  },
+  "cleaned_03_aum_by_fund_house.csv": {
+    "found": true,
+    "missing_columns": [],
+    "extra_columns": []
+  },
+  "cleaned_04_monthly_sip_inflows.csv": {
+    "found": true,
+    "missing_columns": [],
+    "extra_columns": []
+  },
+  "cleaned_05_category_inflows.csv": {
+    "found": true,
+    "missing_columns": [],
+    "extra_columns": []
+  },
+  "cleaned_06_industry_folio_count.csv": {
+    "found": true,
+    "missing_columns": [],
+    "extra_columns": []
+  },
+  "cleaned_07_scheme_performance.csv": {
+    "found": true,
+    "missing_columns": [],
+    "extra_columns": []
+  },
+  "cleaned_08_investor_transactions.csv": {
+    "found": true,
+    "missing_columns": [],
+    "extra_columns": []
+  },
+  "cleaned_09_portfolio_holdings.csv": {
+    "found": true,
+    "missing_columns": [],
+    "extra_columns": []
+  },
+  "cleaned_10_benchmark_indices.csv": {
+    "found": true,
+    "missing_columns": [],
+    "extra_columns": []
+  }
+}
